@@ -16,4 +16,10 @@ public class HelloController {
     public String main() {
         return "<h1>MAIN PAGE</h1>  <h2>woooww</h2>";
     }
+
+
+    @GetMapping("/addController")
+    public String main() {
+        return "<h1>MAIN PAGE</h1>  <h2>woooww</h2> <h1>New Controller has Been Added</h1>";
+    }
 }
