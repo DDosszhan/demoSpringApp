@@ -14,6 +14,6 @@ public class HelloController {
 
     @GetMapping("/main")
     public String main() {
-        return "<h1>MAIN PAGE</h1>";
+        return "<h1>MAIN PAGE</h1>  <h2>woooww</h2>";
     }
 }
