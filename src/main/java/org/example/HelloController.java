@@ -11,12 +11,10 @@ public class HelloController {
         return "Hello, Spring Boot!";
     }
 
-
     @GetMapping("/main")
     public String main() {
         return "<h1>MAIN PAGE</h1>  <h2>woooww</h2>";
     }
-
 
     @GetMapping("/addController")
     public String controller() {
@@ -27,4 +25,5 @@ public class HelloController {
     public String oneMoreController() {
         return "<h1>MAIN PAGE</h1>  <h2>woooww</h2> <h1>New Controller has Been Added</h1> <h1>One More Controller</h1>";
     }
+
 }
