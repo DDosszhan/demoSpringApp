@@ -30,4 +30,10 @@ public class HelloController {
     public String featureFourDotOne() {
         return "<h1>featureFourDotOne</h1>";
     }
+
+    @GetMapping("/featureFiveDotTwo")
+    public String featureFiveDotTwo() {
+        return "<h1>featureFiveDotTwo PAGE</h1>  ";
+    }
+
 }
