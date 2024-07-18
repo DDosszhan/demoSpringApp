@@ -26,4 +26,9 @@ public class HelloController {
         return "<h1>MAIN PAGE</h1>  <h2>woooww</h2> <h1>New Controller has Been Added</h1> <h1>One More Controller</h1>";
     }
 
+
+    @GetMapping("/featureThreeDotOne")
+    public String featureThreeDotOne() {
+        return "<h1>MAIN PAGE</h1> ";
+    }
 }
