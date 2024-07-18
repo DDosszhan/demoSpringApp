@@ -31,4 +31,9 @@ public class HelloController {
     public String featureThreeDotOne() {
         return "<h1>MAIN PAGE</h1> ";
     }
+
+    @GetMapping("/featureFourDotTwo")
+    public String featureFourDotTwo() {
+        return "<h1>featureFourDotTwo</h1>";
+    }
 }
