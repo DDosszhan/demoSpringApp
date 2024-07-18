@@ -19,7 +19,12 @@ public class HelloController {
 
 
     @GetMapping("/addController")
-    public String main() {
-        return "<h1>MAIN PAGE</h1>  <h2>woooww</h2> <h1>New Controller has Been Added</h1>";
+    public String controller() {
+        return "git<h1>MAIN PAGE</h1>  <h2>woooww</h2> <h1>New Controller has Been Added</h1>";
+    }
+
+    @GetMapping("/addOneMoreController")
+    public String oneMoreController() {
+        return "<h1>MAIN PAGE</h1>  <h2>woooww</h2> <h1>New Controller has Been Added</h1> <h1>One More Controller</h1>";
     }
 }
